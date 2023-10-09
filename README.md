@@ -1,4 +1,4 @@
-# Mining Maestros Chatbot
+# Mining Maestros Legal Mining Chatbot
 
 Mining Maestros is a chatbot built using deep learning techniques. The chatbot is trained on a dataset containing categories (intents), patterns, and responses. A special recurrent neural network (LSTM) is used to classify which category the user's message belongs to, and then a random response is given from the list of responses.
 
@@ -50,9 +50,14 @@ If you want to train the chatbot on your own dataset, follow these steps:
    
    This will start the chatbot and allow you to interact with it.
 
-## Contributing
+## Extra files
 
-If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Please make sure to follow the coding guidelines and style of the project.
+we have also included information about the trial GUI model and its features using html css and javascript. You can further customize it as needed.
+
+## Acknowledgments
+Thanks to the developers of TensorFlow, Keras, NLTK, and other open-source libraries used in this project.
+
+
    
    
    
