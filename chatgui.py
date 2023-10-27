@@ -91,7 +91,7 @@ base.geometry("400x500")
 base.resizable(width=FALSE, height=FALSE)
 
 #Create Chat window
-ChatLog = Text(base, bd=0, bg="white", height="8", width="50", font="Arial",)
+ChatLog = Text(base, bd=0, bg="white", height="8", width="50", font="Arial",wrap=WORD)
 
 ChatLog.config(state=DISABLED)
 
@@ -105,7 +105,7 @@ SendButton = Button(base, font=("Verdana",12,'bold'), text="Send", width="12", h
                     command= send )
 
 #Create the box to enter message
-EntryBox = Text(base, bd=0, bg="white",width="29", height="5", font="Arial")
+EntryBox = Text(base, bd=0, bg="white",width="29", height="5", font="Arial",wrap=WORD)
 #EntryBox.bind("<Return>", send)
 
 
