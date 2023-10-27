@@ -60,7 +60,19 @@
                 "responses": ["Government agencies often conduct inspections of mining sites to verify compliance with mining laws and regulations."],
                 "context": [""]
         }
-        ]
-            
-   
+         {
+                "tag": "Railway_tracks",
+                "patterns": ["mining near railway tracks ", "is railway track mining legal", "railway mining"],
+                "responses": ["It is unclear from the search results whether mining near railway tracks is legal in India. However, a legal case from 2012 suggests that mining operations have been undertaken within 45 meters of the railway line in violation of statutory regulations"],
+                "context": [""]
+        }
+        ] 
 }
+
+
+
+
+
+
+
+
