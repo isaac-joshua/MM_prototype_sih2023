@@ -1,5 +1,3 @@
-#https://github.com/tridibsamanta/Chatbot-using-Python
-
 import nltk
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
